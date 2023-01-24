@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 def index(request):
     # return HttpResponse("<h1>IPC Church Homepage</h1>")
-    return render(request, 'base.html')
+    return render(request, 'pages/page.html')
