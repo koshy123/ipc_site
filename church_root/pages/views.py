@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect
 
 from . models import Page
-from .forms import ContactForm
+from . forms import ContactForm
 
 def index(request, pagename):
     pagename = '/' + pagename
