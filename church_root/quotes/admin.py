@@ -16,7 +16,7 @@ class QuoteAdmin(admin.ModelAdmin):
         }),
         ('Job Information', {
             'classes': ('collapse',), 
-            'fields': ('sitestatus', 'priority', 'jobfile', 'submitted')
+            'fields': ('member', 'priority', 'jobfile', 'submitted')
         }), 
         ('Quote Admin', {
             'classes': ('collapse',),
