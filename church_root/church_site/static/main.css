@@ -1,23 +1,26 @@
 @charset "utf-8";
 #header {
 	border-style: none;
-	width: 800px;
 	height: auto;	
 }
 #wrapper {
 	margin-top: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	background-color: #FFFFFF;
-	width: 1000px;	
+	width: auto;	
 }
 body {
 	background-color: #E0E0E0;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
-	text-align: justify;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	color: #474747;
 }
+
+
 #footer {
 	text-align: center;
 	font-size: 0.8em;
