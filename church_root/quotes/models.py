@@ -21,7 +21,7 @@ class Quote(models.Model):
     email = models.EmailField()
     web = models.URLField(blank=True)
     description = models.TextField()
-    member = models.CharField(max_length=20, choices=STATUS_CHOICES)
+    sitestatus = models.CharField(max_length=20, choices=STATUS_CHOICES)
     priority = models.CharField(max_length=40, choices=PRIORITY_CHOICES)
     jobfile = models.FileField(upload_to='uploads/', blank=True)
     submitted = models.DateField(auto_now_add=True)
