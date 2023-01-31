@@ -30,7 +30,7 @@ def contact(request):
                 cd['message'],
                 cd.get('email', 'noreply@example.com'),
                 ['siteowner@example.com'],
-                connection=con,
+                connection=con
             )
             return HttpResponseRedirect('/contact?submitted=True')
     else:
@@ -39,5 +39,4 @@ def contact(request):
             submitted = True
 
     return render(request, 'pages/contact.html', {'form': form, 'page_list': Page.objects.all(), 'submitted': submitted})
-
 
